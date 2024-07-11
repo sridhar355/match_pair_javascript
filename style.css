@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+#images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: -2px; */
+}
+
+img {
+    width: 100px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(11, 25, 224, 0.599);
+    margin: 10px;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+p{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
